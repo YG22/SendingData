@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  top: 10px;
+}
+
+.resultOfRequest {
+  background-color: rgb(232, 240, 254) !important;
+  font-family: cursive;
+  border-radius: 20px;
+  border: #3f51b5 2px solid;
+}
+
+.closeBtn {
+  display: flex;
+  position: relative;
+  fill: #3f51b5;
+}
+
+.closeBtn:hover {
+  fill: #f50057;
+}
+.none {
+  display: none;
+}
